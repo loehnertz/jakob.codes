@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: Jakob Löhnertz
 subtitle:
 description:
-author: John Doe
-language:
+author: Jakob Löhnertz
+language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://www.jakob.codes
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -57,13 +57,13 @@ time_format: HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 10
+per_page: 0
 pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: jakob.codes
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
