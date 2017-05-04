@@ -113,7 +113,7 @@ header .intro-box hr {
 }
 header nav {
   position: relative;
-  bottom: 5%;
+  bottom: 8%;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
