@@ -41,17 +41,27 @@ h1 {
 h5 {
   color: white;
   font-family: 'Coda', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: normal;
   margin: 0;
   text-align: center;
   text-transform: uppercase;
+}
+p {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.32rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
 }
 a {
   color: crimson;
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 400;
   text-decoration: none;
+}
+a.tooltips {
+  border-bottom: 1px dashed #2C2C2C;
 }
 /* END: Typography */
 /* START: Header */

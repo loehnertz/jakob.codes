@@ -1,5 +1,6 @@
 /* START: Variables */
-
+@standard-grey: #2C2C2C;
+@standard-red: crimson;
 /* END: Variables */
 
 /* START: Mixins */
@@ -52,7 +53,7 @@ h1 {
 h5 {
   color: white;
   font-family: 'Coda', sans-serif;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: normal;
 
   margin: 0;
@@ -61,12 +62,25 @@ h5 {
   text-transform: uppercase;
 }
 
+p {
+  font-family: "Roboto Slab", serif;
+  font-size: 1.32rem;
+  font-weight: 300;
+
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+}
+
 a {
-  color: crimson;
+  color: @standard-red;
   font-family: 'Roboto Slab', sans-serif;
   font-weight: 400;
 
   text-decoration: none;
+
+  &.tooltips {
+    border-bottom: 1px dashed @standard-grey;
+  }
 }
 /* END: Typography */
 
