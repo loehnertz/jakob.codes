@@ -101,5 +101,18 @@ header nav {
 /* START: About Me */
 #about-me {
   background: url('../img/whitey.png') repeat;
+  box-shadow: inset 0 21px 50px -19px rgba(0, 0, 0, 0.55);
 }
 /* END: About Me */
+/* START: Portfolio */
+#portfolio {
+  background: url('../img/grey_wash_wall.png') repeat;
+  min-height: 19rem;
+  color: whitesmoke;
+  box-shadow: inset 0 0 60px 0 rgba(0, 0, 0, 0.55);
+}
+#portfolio a,
+#portfolio p {
+  color: inherit;
+}
+/* END: Portfolio */
