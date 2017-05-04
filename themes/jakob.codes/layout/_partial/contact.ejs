@@ -5,7 +5,7 @@
                 Sollten Sie eine neue Webseite benötigen oder auch Veränderungswünsche für eine bestehende Webseite haben, verwenden Sie gerne das untenstehende Formular um mit mir in Kontakt zu treten.
             </p>
         </div>
-        <form action="" method="POST">
+        <form name="contact" netlify netlify-honeypot="gotcha">
             <div>
                 <label for="name">Ihr Name</label>
                 <input class="b-blur-shadow" id="name" name="name" type="text" placeholder="">
@@ -22,9 +22,7 @@
                 <div class="alert-box">
                     Die markierten Felder müssen ausgefüllt werden!
                 </div>
-                <input type="text" name="_gotcha" style="display:none">
-                <input type="hidden" name="_subject" value="Kontaktformular">
-                <input type="hidden" name="_next" value="//www.jakob.codes/">
+                <input type="text" name="gotcha" style="display:none">
                 <input class="big-button__blue" id="submit" name="submit" type="submit" value="Absenden" disabled="true">
             </div>
         </form>
