@@ -1,3 +1,11 @@
+/* START: Variables */
+/* END: Variables */
+/* START: Mixins */
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+/* END: Mixins */
 /* START: General */
 * {
   box-sizing: border-box;
@@ -6,7 +14,13 @@ html,
 body {
   overflow-x: hidden;
 }
-/* END: Header */
+section {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+/* END: General */
 /* START: Typography */
 h1 {
   color: white;
@@ -34,31 +48,31 @@ a {
 }
 /* END: Typography */
 /* START: Header */
-header.intro {
+header {
   width: 100vw;
   height: 100vh;
 }
-header.intro .bg-video,
-header.intro .bg-video > video {
+header .bg-video,
+header .bg-video > video {
   height: 100%;
   overflow: hidden;
 }
-header.intro .intro-box {
+header .intro-box {
   position: relative;
   bottom: 60%;
 }
-header.intro .intro-box .title {
+header .intro-box .title {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-header.intro .intro-box hr {
+header .intro-box hr {
   width: 55px;
   border: solid white;
   border-width: 1px 0 1px;
 }
-header.intro nav {
+header nav {
   position: relative;
   bottom: 5%;
   display: flex;
@@ -67,3 +81,5 @@ header.intro nav {
   align-items: center;
 }
 /* END: Header */
+/* START: About Me */
+/* END: About Me */

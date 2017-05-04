@@ -1,3 +1,14 @@
+/* START: Variables */
+
+/* END: Variables */
+
+/* START: Mixins */
+.wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+/* END: Mixins */
+
 /* START: General */
 * {
   box-sizing: border-box;
@@ -6,7 +17,14 @@
 html, body {
   overflow-x: hidden;
 }
-/* END: Header */
+
+section {
+  .wrapper();
+
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+/* END: General */
 
 /* START: Typography */
 h1 {
@@ -43,7 +61,7 @@ a {
 /* END: Typography */
 
 /* START: Header */
-header.intro {
+header {
   width: 100vw;
   height: 100vh;
 
@@ -81,3 +99,9 @@ header.intro {
   }
 }
 /* END: Header */
+
+/* START: About Me */
+#about-me {
+
+}
+/* END: About Me */
