@@ -97,7 +97,7 @@ a {
   text-decoration: none;
 
   &.tooltips {
-    border-bottom: 1px dashed @standard-grey;
+    border-bottom: 1px dashed @standard-gray;
   }
 }
 /* END: Typography */
@@ -107,9 +107,20 @@ header {
   width: 100vw;
   height: 100vh;
 
-  .bg-video, .bg-video > video {
+  #bg-video {
+    width: 100%;
     height: 100%;
     overflow: hidden;
+
+    > video {
+      width: 100vw;
+      height: auto;
+
+      @media (max-width: 1315px) {
+        width: auto;
+        height: 100vh;
+      }
+    }
   }
 
   .intro-box {
