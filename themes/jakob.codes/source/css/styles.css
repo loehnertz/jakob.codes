@@ -5,6 +5,15 @@
   max-width: 1024px;
   margin: 0 auto;
 }
+.pattern-1 {
+  background: url('../img/whitey.png') repeat;
+}
+.pattern-2 {
+  background: url('../img/grey_wash_wall.png') repeat;
+}
+.pattern-3 {
+  background: url('../img/gplaypattern.png') repeat;
+}
 /* END: Mixins */
 /* START: General */
 * {
@@ -15,8 +24,6 @@ body {
   overflow-x: hidden;
 }
 section {
-  max-width: 1024px;
-  margin: 0 auto;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -82,4 +89,7 @@ header nav {
 }
 /* END: Header */
 /* START: About Me */
+#about-me {
+  background: url('../img/whitey.png') repeat;
+}
 /* END: About Me */
