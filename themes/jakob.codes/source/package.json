@@ -1,0 +1,13 @@
+{
+  "name": "dependencies_for_jakob-codes",
+  "version": "1.0.0",
+  "private": true,
+  "author": "Jakob Löhnertz",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "normalize.css": "^7.0.0",
+    "slick-carousel": "^1.6.0",
+    "tooltipster": "^4.2.5"
+  }
+}
