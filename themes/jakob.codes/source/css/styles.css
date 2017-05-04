@@ -184,6 +184,7 @@ header nav {
 #contact .alert-box {
   display: block;
   position: relative;
+  visibility: hidden;
   color: white;
   font-size: 1rem;
   font-weight: normal;
