@@ -1,6 +1,8 @@
 /* START: Variables */
 @standard-grey: #2C2C2C;
 @standard-red: crimson;
+@standard-green: olivedrab;
+@standard-blue: steelblue;
 /* END: Variables */
 
 /* START: Mixins */
@@ -137,9 +139,7 @@ header {
   .pattern-2();
 
   min-height: 19rem;
-
   color: whitesmoke;
-
   box-shadow: inset 0 0 60px 0 rgba(0, 0, 0, 0.55);
 
   a, p {
@@ -147,3 +147,27 @@ header {
   }
 }
 /* END: Portfolio */
+
+/* START: Contact */
+#contact {
+  .pattern-1();
+
+  box-shadow: inset 0 -21px 50px -19px rgba(0, 0, 0, 0.55);
+
+  textarea {
+    height: 50vh;
+  }
+
+  .alert-box {
+    background-color: @standard-blue;
+    text-align: center;
+    visibility: hidden;
+  }
+
+  .b-blur-shadow:focus {
+    box-shadow: 0 0 200px -50px @standard-blue;
+    background-color: white;
+    transition: all 0.3s ease 0s;
+  }
+}
+/* END: Contact */

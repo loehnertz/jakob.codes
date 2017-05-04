@@ -116,3 +116,22 @@ header nav {
   color: inherit;
 }
 /* END: Portfolio */
+/* START: Contact */
+#contact {
+  background: url('../img/whitey.png') repeat;
+  box-shadow: inset 0 -21px 50px -19px rgba(0, 0, 0, 0.55);
+}
+#contact textarea {
+  height: 50vh;
+}
+#contact .alert-box {
+  background-color: steelblue;
+  text-align: center;
+  visibility: hidden;
+}
+#contact .b-blur-shadow:focus {
+  box-shadow: 0 0 200px -50px steelblue;
+  background-color: white;
+  transition: all 0.3s ease 0s;
+}
+/* END: Contact */
