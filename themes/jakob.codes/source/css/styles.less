@@ -247,7 +247,7 @@ header {
   .alert-box {
     display: block;
     position: relative;
-    visibility: hidden;
+    opacity: 0;
 
     color: white;
     font-size: 1rem;
@@ -270,6 +270,11 @@ header {
     .big-button();
 
     background-color: @standard-blue;
+
+    &:hover {
+      background: dimgray;
+      box-shadow: 0 0 55px -5px rgba(0, 0, 0, 0.6);
+    }
   }
 }
 /* END: Contact */
