@@ -60,6 +60,17 @@ section {
 img {
   max-width: 100%;
 }
+
+.nav-fixed {
+  position: fixed;
+  z-index: 101;
+  bottom: auto;
+  top: 0;
+  width: 100vw;
+  height: 80px;
+
+  background-color: black;
+}
 /* END: General */
 
 /* START: Typography */
@@ -81,6 +92,7 @@ h5 {
   font-size: 1.5rem;
   font-weight: normal;
 
+  padding-bottom: .5rem;
   margin: 0;
 
   text-align: center;
@@ -152,10 +164,17 @@ header {
     position: relative;
     bottom: 8%;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    > div.wrapper {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: center;
+      height: 100%;
+
+      > div {
+        flex: 1;
+      }
+    }
   }
 }
 /* END: Header */
