@@ -79,6 +79,7 @@ p {
   font-size: 1.32rem;
   font-weight: 300;
   line-height: 1.5;
+  text-align: justify;
   text-rendering: optimizeLegibility;
 }
 a {
@@ -157,6 +158,20 @@ header nav > div.wrapper > div {
 #portfolio a,
 #portfolio p {
   color: inherit;
+}
+#portfolio img {
+  display: block;
+  height: 20rem;
+  margin-bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+#portfolio a:nth-of-type(2) {
+  display: block;
+  text-align: center;
+}
+#portfolio p {
+  margin: 1rem 0 3rem 0;
 }
 /* END: Portfolio */
 /* START: Contact */
