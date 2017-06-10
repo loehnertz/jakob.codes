@@ -107,7 +107,7 @@ header #bg-video {
   height: 100%;
   overflow: hidden;
 }
-@media (max-width: 425px) {
+@media (max-width: 460px) {
   header #bg-video {
     background-image: url('../img/background-freezeframe.jpg');
     background-size: cover;
