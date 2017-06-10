@@ -4,6 +4,8 @@
 .wrapper {
   max-width: 1024px;
   margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 .pattern-1 {
   background: url('../img/whitey.png') repeat;
@@ -102,6 +104,17 @@ header #bg-video {
   height: 100%;
   overflow: hidden;
 }
+@media (max-width: 425px) {
+  header #bg-video {
+    background-image: url('../img/background-freezeframe.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  header #bg-video > video {
+    display: none;
+  }
+}
 header #bg-video > video {
   width: 100vw;
   height: auto;
@@ -143,6 +156,16 @@ header nav > div.wrapper > div {
 }
 header nav .nav-item {
   border-bottom: 0.125em solid transparent;
+}
+@media (max-width: 500px) {
+  header nav .nav-item {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 400px) {
+  header nav .nav-item {
+    font-size: 0.9rem;
+  }
 }
 /* END: Header */
 /* START: About Me */

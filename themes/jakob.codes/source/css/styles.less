@@ -9,6 +9,8 @@
 .wrapper {
   max-width: 1024px;
   margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .pattern-1 {
@@ -132,6 +134,17 @@ header {
     height: 100%;
     overflow: hidden;
 
+    @media (max-width: 425px) {
+      background-image: url('../img/background-freezeframe.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+
+      > video {
+        display: none;
+      }
+    }
+
     > video {
       width: 100vw;
       height: auto;
@@ -179,6 +192,14 @@ header {
 
     .nav-item {
       border-bottom: 0.125em solid transparent;
+
+      @media (max-width: 500px) {
+        font-size: 1.25rem;
+      }
+
+      @media (max-width: 400px) {
+        font-size: 0.9rem;
+      }
     }
   }
 }
