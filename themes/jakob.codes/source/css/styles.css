@@ -218,7 +218,7 @@ header nav .nav-item {
   color: #2C2C2C;
   font-family: 'Roboto Slab', sans-serif;
 }
-#contact form > div:first-of-type(1) {
+#contact form > div:first-of-type {
   flex-basis: 32%;
   margin-right: 3%;
 }
