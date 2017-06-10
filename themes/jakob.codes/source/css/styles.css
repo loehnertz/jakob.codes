@@ -141,6 +141,9 @@ header nav > div.wrapper {
 header nav > div.wrapper > div {
   flex: 1;
 }
+header nav .nav-item {
+  border-bottom: 0.125em solid transparent;
+}
 /* END: Header */
 /* START: About Me */
 #about-me {
