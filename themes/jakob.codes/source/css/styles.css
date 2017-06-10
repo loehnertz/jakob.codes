@@ -218,18 +218,18 @@ header nav .nav-item {
   color: #2C2C2C;
   font-family: 'Roboto Slab', sans-serif;
 }
-#contact form > div:nth-child(1) {
+#contact form > div:first-of-type(1) {
   flex-basis: 32%;
   margin-right: 3%;
 }
-#contact form > div:nth-child(2) {
+#contact form > div:nth-of-type(2) {
   flex-basis: 65%;
 }
-#contact form > div:nth-child(3) {
+#contact form > div:nth-of-type(3) {
   flex-basis: 100%;
   margin-top: 1rem;
 }
-#contact form > div:last-child {
+#contact form > div:last-of-type {
   flex-basis: 100%;
   margin-top: 1rem;
 }
