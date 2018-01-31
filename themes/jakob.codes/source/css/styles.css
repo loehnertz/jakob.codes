@@ -79,7 +79,8 @@ h5 {
   text-align: center;
   text-transform: uppercase;
 }
-p {
+p,
+li {
   font-family: "Roboto Slab", serif;
   font-size: 1.32rem;
   font-weight: 300;
@@ -95,6 +96,11 @@ a {
 }
 a.tooltips {
   border-bottom: 1px dashed #2C2C2C;
+}
+li {
+  font-size: 1rem;
+  text-align: center;
+  list-style: none;
 }
 /* END: Typography */
 /* START: Header */
@@ -184,9 +190,11 @@ header nav .nav-item {
   color: honeydew;
   box-shadow: inset 0 0 60px 0 rgba(0, 0, 0, 0.55);
 }
-#portfolio a,
 #portfolio p {
   color: inherit;
+}
+#portfolio a {
+  color: olivedrab;
 }
 #portfolio img {
   display: block;
@@ -201,6 +209,9 @@ header nav .nav-item {
 }
 #portfolio p {
   margin: 1rem 0 3rem 0;
+}
+.slider-heading {
+  color: inherit !important;
 }
 /* END: Portfolio */
 /* START: Contact */
