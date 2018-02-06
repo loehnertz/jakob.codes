@@ -25,8 +25,6 @@ $(document).ready(function() {
         }
     });
 
-    $('.tooltips').tooltipster();
-
     $('#slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
