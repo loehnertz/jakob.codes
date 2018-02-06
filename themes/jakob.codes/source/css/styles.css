@@ -228,6 +228,24 @@ header nav .nav-item {
 #contact p {
   margin-bottom: 4rem;
 }
+#contact #profiles-container {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 5.5rem;
+}
+#contact #profiles-container > a {
+  color: #2C2C2C !important;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#contact #profiles-container svg,
+#contact #profiles-container i {
+  font-size: 6rem;
+  color: steelblue;
+  margin-bottom: 1rem;
+}
 #contact form {
   display: flex;
   flex-direction: row;
