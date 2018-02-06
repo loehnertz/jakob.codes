@@ -180,7 +180,7 @@ header nav .nav-item {
 /* START: About Me */
 #about-me {
   background: url('../img/whitey.png') repeat;
-  box-shadow: inset 0 21px 50px -19px rgba(0, 0, 0, 0.55);
+  box-shadow: inset 0 21px 60px -19px rgba(0, 0, 0, 0.55);
 }
 @media (max-width: 460px) {
   #about-me {
@@ -223,7 +223,7 @@ header nav .nav-item {
 /* START: Contact */
 #contact {
   background: url('../img/whitey.png') repeat;
-  box-shadow: inset 0 -21px 50px -19px rgba(0, 0, 0, 0.55);
+  box-shadow: inset 0 -21px 60px -19px rgba(0, 0, 0, 0.55);
 }
 #contact p {
   margin-bottom: 4rem;
