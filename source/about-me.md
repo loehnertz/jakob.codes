@@ -2,7 +2,7 @@
 title: about-me
 ---
 
-<p>Since many years my greatest passion are software development and UI/UX design.<br>
+<p>Since many years my greatest passions are software development and UI/UX design.<br>
 I study <em>Media Management</em> in my last semester at <a href="http://www.hs-rm.de/" target="_blank">Hochschule RheinMain University</a> in Wiesbaden, Germany. I also held weekly official tutorings at this university for the subjects ICT and web technology for fellow students to prepare them for their exams. I did these tutorings for more than two years consecutively.
 Next to my studies, I work at a software development firm which sells intranet software as well as plugins for it. Together with my team, I develop web-based software for our internal systems.
 Mostly, I work with Python for the backend and JavaScript together with HTML/CSS for the frontend. The products are released as a rolling-release and therefore me and my team are developing new features alongside giving support for the products.<br>
